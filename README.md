@@ -59,7 +59,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.gcusumors;
+})();
 })();
 </script>
 ```
@@ -190,6 +192,7 @@ gcusumors.ndarray( N, 0.0, x, 2, 1, y, -1, y.length-1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumors@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var y;
 var x;
@@ -206,6 +209,7 @@ console.log( y );
 gcusumors( x.length, 0.0, x, 1, y, -1 );
 console.log( y );
 
+})();
 })();
 </script>
 </body>
@@ -314,13 +318,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/blas/ext/base/dcusumors]: https://github.com/stdlib-js/blas-ext-base-dcusumors/tree/umd
+[@stdlib/blas/ext/base/dcusumors]: https://github.com/stdlib-js/blas-ext-base-dcusumors/tree/umd/tree/umd
 
-[@stdlib/blas/ext/base/gcusum]: https://github.com/stdlib-js/blas-ext-base-gcusum/tree/umd
+[@stdlib/blas/ext/base/gcusum]: https://github.com/stdlib-js/blas-ext-base-gcusum/tree/umd/tree/umd
 
-[@stdlib/blas/ext/base/gcusumpw]: https://github.com/stdlib-js/blas-ext-base-gcusumpw/tree/umd
+[@stdlib/blas/ext/base/gcusumpw]: https://github.com/stdlib-js/blas-ext-base-gcusumpw/tree/umd/tree/umd
 
-[@stdlib/blas/ext/base/scusumors]: https://github.com/stdlib-js/blas-ext-base-scusumors/tree/umd
+[@stdlib/blas/ext/base/scusumors]: https://github.com/stdlib-js/blas-ext-base-scusumors/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
