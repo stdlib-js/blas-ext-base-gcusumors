@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-ext-base-gcusumors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Calculate the cumulative sum of strided array elements using ordinary recursive summation.",
   "license": "Apache-2.0",
   "author": {
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/types": "^0.1.0",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.0"
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.1.0",
