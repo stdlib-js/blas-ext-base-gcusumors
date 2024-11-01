@@ -1,45 +1,7 @@
+"use strict";var c=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var l=c(function(h,x){
+function m(e,r,o,t,s,a){var u,n,i;if(e<=0)return s;for(t<0?u=(1-e)*t:u=0,a<0?n=(1-e)*a:n=0,i=0;i<e;i++)r+=o[u],s[n]=r,u+=t,n+=a;return s}x.exports=m
+});var q=c(function(j,p){
+function y(e,r,o,t,s,a,u,n){var i,v,f;if(e<=0)return a;for(i=s,v=n,f=0;f<e;f++)r+=o[i],a[v]=r,i+=t,v+=u;return a}p.exports=y
+});var O=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),g=l(),R=q();O(g,"ndarray",R);module.exports=g;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Compute the cumulative sum of strided array elements using ordinary recursive summation.
-*
-* @module @stdlib/blas-ext-base-gcusumors
-*
-* @example
-* var gcusumors = require( '@stdlib/blas-ext-base-gcusumors' );
-*
-* var x = [ 1.0, -2.0, 2.0 ];
-* var y = [ 0.0, 0.0, 0.0 ];
-*
-* gcusumors( x.length, 0.0, x, 1, y, 1 );
-* // y => [ 1.0, -1.0, 1.0 ]
-*
-* @example
-* var floor = require( '@stdlib/math-base-special-floor' );
-* var gcusumors = require( '@stdlib/blas-ext-base-gcusumors' );
-*
-* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
-* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
-* var N = floor( x.length / 2 );
-*
-* gcusumors.ndarray( N, 0.0, x, 2, 1, y, 1, 0 );
-* // y => [ 1.0, -1.0, 1.0, 5.0, 0.0, 0.0, 0.0, 0.0 ]
-*/
-
-// MODULES //
-
-var setReadOnly = require( '@stdlib/utils-define-nonenumerable-read-only-property/dist' );
-var main = require( './main.js' );
-var ndarray = require( './ndarray.js' );
-
-
-// MAIN //
-
-setReadOnly( main, 'ndarray', ndarray );
-
-
-// EXPORTS //
-
-module.exports = main;
+//# sourceMappingURL=index.js.map
