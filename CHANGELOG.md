@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-02-05)
+## 0.3.0 (2026-01-31)
 
 <section class="features">
 
@@ -22,6 +22,8 @@
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
+-   [`3e9f3a0`](https://github.com/stdlib-js/stdlib/commit/3e9f3a0bdc4c231521f39148dbff889815bae6d7) - **docs:** fix missing period _(by Athan Reines)_
 -   [`8310c1f`](https://github.com/stdlib-js/stdlib/commit/8310c1f4054d2ff0ee8b05f1c77b1d3c846a1012) - **feat:** add accessor arrays support to `blas/ext/base/gcusumors` [(#5010)](https://github.com/stdlib-js/stdlib/pull/5010) _(by Muhammad Haris)_
 -   [`3d97ce8`](https://github.com/stdlib-js/stdlib/commit/3d97ce8fc13ec47c60a4698ba2668e6330c125ea) - **bench:** measure performance on generic arrays _(by Athan Reines)_
 -   [`53c0427`](https://github.com/stdlib-js/stdlib/commit/53c0427db5f49ab6209c55941ff15270a3569d44) - **refactor:** update `blas/ext/base/gcusumors` to follow current project conventions [(#4453)](https://github.com/stdlib-js/stdlib/pull/4453) _(by Muhammad Haris, Athan Reines)_
