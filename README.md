@@ -48,13 +48,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gcusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumors@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gcusumors/tags). For example,
+
+```javascript
 import gcusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumors@v0.3.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumors@v0.3.0-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumors@esm/index.mjs';
 ```
 
 #### gcusumors( N, sum, x, strideX, y, strideY )
@@ -171,7 +176,7 @@ gcusumors.ndarray( 4, 0.0, x, 2, 1, y, -1, y.length-1 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import gcusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumors@v0.3.0-esm/index.mjs';
+import gcusumors from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gcusumors@esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
